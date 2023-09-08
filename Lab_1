@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Лабраторная_работа_1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            sbyte M = -12;
+            Console.WriteLine(M);
+            sbyte E = -12;
+            sbyte N = -19;
+            sbyte B = Math.Max(E, N);
+            Console.WriteLine(B);
+            double A = 144;
+            double X = Math.Sqrt(A);
+            Console.WriteLine(X);
+            double O = 15.5;
+            double T = Math.Truncate(O);
+            Console.WriteLine(T);
+            const double e = 2.718;
+            int x = 1 / 2;
+            double sin =Math.Pow(e, x) - (Math.Pow(e, -x))/2  ;
+            Console.WriteLine(sin);
+        }
+    }
+}
